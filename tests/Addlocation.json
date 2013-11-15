@@ -88,6 +88,11 @@
         "value": "add_location_box"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "setElementSelected",
       "locator": {
@@ -117,7 +122,7 @@
     },
                 {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "8000"
     },
     {
       "type": "clickElement",
