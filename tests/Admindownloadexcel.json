@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-    {
+                 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -47,13 +47,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "fellowes"
+      "text": "dennys"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "accounts_chzn_o_109"
+        "value": "accounts_chzn_o_80"
       }
     },
     {
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-    {
+                 {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -71,46 +71,31 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"Etailer\"]"
+        "value": "img[alt=\"Files\"]"
       }
     },
-    {
+                 {
       "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "span.add-new"
+        "type": "link text",
+        "value": "Admin Download"
       }
     },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "label > input[type=\"text\"]"
-      },
-      "text": "SRT03"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[7]/input"
-      },
-      "text": "product03"
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
+    
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-confirm"
+        "type": "xpath",
+        "value": "//table[@id='upload_outside_box']//label[.='Excel 2003 or older (.xls)']"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "4000"
     }
   ]
 }
