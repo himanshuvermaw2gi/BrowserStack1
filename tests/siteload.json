@@ -56,8 +56,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_258"
+        "type": "id",
+        "value": "accounts_chzn_o_266"
       }
     },
     {
