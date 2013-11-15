@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-    {
+                {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -47,17 +47,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "test12"
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
+      "text": "dennys"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "accounts_chzn_o_266"
+        "value": "accounts_chzn_o_80"
       }
     },
     {
@@ -67,20 +63,73 @@
         "value": "change_account"
       }
     },
+                {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "add_location_box"
+      }
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_overlay"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "add_location_box"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "autogenerateid"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "location_name"
+      },
+      "text": "manas211"
+    },
+    
+                {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "id",
+        "value": "location_geocode"
+      }
+    },
+                {
       "type": "pause",
       "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Sites\"]"
+        "type": "id",
+        "value": "location_submit"
       }
     },
-		 {
+            {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "5000"
     }
+    
   ]
 }
