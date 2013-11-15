@@ -106,7 +106,7 @@
         "type": "id",
         "value": "location_name"
       },
-      "text": "w2gi01"
+      "text": "w2gi03"
     },
     
                 {
@@ -122,7 +122,7 @@
     },
                 {
       "type": "pause",
-      "waitTime": "8000"
+      "waitTime": "12000"
     },
     {
       "type": "clickElement",
