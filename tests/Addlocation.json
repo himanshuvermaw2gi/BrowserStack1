@@ -30,10 +30,11 @@
         "value": "submit"
       }
     },
-                {
+{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "6000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -63,9 +64,9 @@
         "value": "change_account"
       }
     },
-                {
+    {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "6000"
     },
     {
       "type": "clickElement",
@@ -74,25 +75,6 @@
         "value": "add_location_box"
       }
     },
-    {
-      "type": "doubleClickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_overlay"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "add_location_box"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
     {
       "type": "setElementSelected",
       "locator": {
@@ -106,23 +88,34 @@
         "type": "id",
         "value": "location_name"
       },
-      "text": "w2gi03"
-    },
-    
-                {
-      "type": "pause",
-      "waitTime": "7000"
+      "text": "srt03"
     },
     {
-      "type": "doubleClickElement",
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "location_city"
+      },
+      "text": "albama"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "location_postalcode"
+      },
+      "text": "35004"
+    },
+    {
+      "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "location_geocode"
       }
     },
-                {
+    {
       "type": "pause",
-      "waitTime": "12000"
+      "waitTime": "9000"
     },
     {
       "type": "clickElement",
@@ -130,11 +123,6 @@
         "type": "id",
         "value": "location_submit"
       }
-    },
-            {
-      "type": "pause",
-      "waitTime": "5000"
     }
-    
   ]
 }
