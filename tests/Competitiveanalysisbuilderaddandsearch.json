@@ -71,10 +71,11 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "AdminTools"
+        "type": "css selector",
+        "value": "img[alt=\"AdminTools\"]"
       }
     },
+
         {
       "type": "pause",
       "waitTime": "4000"
