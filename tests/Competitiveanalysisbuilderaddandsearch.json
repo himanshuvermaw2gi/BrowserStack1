@@ -71,8 +71,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Admin Tools"
+        "type": "id",
+        "value": "AdminTools"
       }
     },
         {
