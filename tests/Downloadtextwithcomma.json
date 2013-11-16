@@ -34,7 +34,7 @@
       "type": "pause",
       "waitTime": "4000"
     },
-                {
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -49,7 +49,7 @@
       },
       "text": "dennys"
     },
-    {
+   {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-                {
+                 {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -71,64 +71,55 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"Syndicate\"]"
+        "value": "img[alt=\"Files\"]"
       }
     },
-    {
+                 {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Download"
+      }
+    },
+                 {
+      "type": "pause",
+      "waitTime": "8000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p/select//option[4]"
+        "value": "//div[@id='down_cat_select']/select//option[2]"
       }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "countries"
-      },
-      "text": "AL"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "view_file"
-      }
-    },
-                {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "type": "xpath",
+        "value": "//tr[@id='type_container']//label[.='Comma']"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "add"
+        "value": "comma"
       }
     },
-                {
-      "type": "pause",
-      "waitTime": "3000"
-    },
     {
-      "type": "verifyTextPresent",
-      "text": "Your request is currently being processed. Please check your email for result."
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "download_button"
+      }
     },
-                {
+                 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "1000"
     }
   ]
 }
