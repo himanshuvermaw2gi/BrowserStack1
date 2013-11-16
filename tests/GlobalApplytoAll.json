@@ -30,10 +30,6 @@
         "value": "submit"
       }
     },
-                 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
     {
       "type": "clickElement",
       "locator": {
@@ -47,7 +43,7 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "dennys"
+      "text": "denny"
     },
     {
       "type": "clickElement",
@@ -63,39 +59,37 @@
         "value": "change_account"
       }
     },
-                 {
-      "type": "pause",
-      "waitTime": "4000"
-    },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"Files\"]"
+        "value": "img[alt=\"Sites\"]"
       }
-    },
-                 {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Admin Download"
+        "value": "Configuration Admin"
       }
     },
-    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#element_-2147154422 > span.apply.apply_icon"
+      }
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//table[@id='upload_outside_box']//label[.='Excel 2003 or older (.xls)']"
+        "value": "//div[@id='lightwindow_contents']/span/div/form/ul/li[2]/input"
       }
     },
-     {
+		 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "7000"
     }
   ]
 }
