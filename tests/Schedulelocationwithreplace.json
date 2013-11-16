@@ -97,31 +97,7 @@
       "waitTime": "2000"
     },
    
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "NotActiveTab"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']//label[.='Replace']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "replace_radio"
-      }
-    },
-                 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
+    
     {
       "type": "setElementSelected",
       "locator": {
