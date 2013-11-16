@@ -114,8 +114,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "li.fieldItem"
+        "type": "xpath",
+        "value": "//ul[@id='field_items']//li[.='clientkey']"
       }
     },
     {
