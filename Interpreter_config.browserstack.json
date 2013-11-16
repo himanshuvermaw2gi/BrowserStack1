@@ -20,7 +20,7 @@
         }
       ],
       "scripts": [
-        "tests1/*"
+        "tests/*"
       ]
     }
   ]
