@@ -144,8 +144,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_dropdown_1_chzn_o_78 > em"
+        "type": "id",
+        "value": "accounts_dropdown_1_chzn_o_81"
       }
     },
         {
@@ -172,7 +172,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "accounts_dropdown_2_chzn_o_299"
+        "value": "accounts_dropdown_2_chzn_o_303"
       }
     },
     {
