@@ -83,7 +83,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']//label[.='Update-Delete']"
+        "value": "//div[@id='sched-box']//table[@ class='Form Table']//label[.='Update-Delete']"
       }
     },
                  {
