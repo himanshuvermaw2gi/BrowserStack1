@@ -101,7 +101,6 @@
       "locator": {
         "type": "xpath",
         "value": "//div[@id='sched-box']//label[.='Update']"
-"
       }
     },
                  {
