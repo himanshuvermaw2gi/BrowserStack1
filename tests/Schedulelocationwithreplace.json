@@ -84,25 +84,19 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "Schedule"
+        "value": "NotActiveTab"
       }
     },
     {
       "type": "pause",
       "waitTime": "10000"
     },
+    
     {
       "type": "clickElement",
       "locator": {
-        "type": "class",
-        "value": "file_type_radio filetype"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#replace"
+        "type": "xpath",
+        "value": "//div[@id='sched-box']//label[.='Replace']"
       }
     },
     {
