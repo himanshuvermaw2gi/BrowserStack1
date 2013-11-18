@@ -96,9 +96,10 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']//label[.='Replace']"
+        "value": "//table[@class='FormTable']//label[.='Replace']"
       }
     },
+
     {
       "type": "pause",
       "waitTime": "5000"
