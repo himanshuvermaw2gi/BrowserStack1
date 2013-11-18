@@ -7,7 +7,6 @@
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
     },
-    
     {
       "type": "setElementText",
       "locator": {
@@ -33,9 +32,9 @@
     },
                  {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
-                {
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -66,13 +65,13 @@
     },
                  {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"Files\"]"
+        "value": "img[alt=\"Leads\"]"
       }
     },
                  {
@@ -82,126 +81,121 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']//label[.='Update-Delete']"
+        "type": "link text",
+        "value": "Add New Message"
       }
     },
-
-    {
+                 {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']/table[2]/tbody/tr[4]/td[2]/select//option[1]"
-      }
+        "type": "id",
+        "value": "sms_title"
+      },
+      "text": "test mail23ds"
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']/table[2]/tbody/tr[5]/td[2]/select//option[1]"
-      }
-    },
-    {
+                 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "username"
+        "value": "messageSubject"
       },
-      "text": "w2gi"
+      "text": "urgent123"
     },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "password"
-      },
-      "text": "123456"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "filename"
-      },
-      "text": "SRT02.text"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "path"
-      },
-      "text": "/home/desktop"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "server"
-      },
-      "text": "192.168.1.2"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']/table[3]/tbody/tr[7]/td[2]/select//option[4]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']/table[4]/tbody/tr[2]/td[2]/ul/li[1]/select//option[2]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[1]/select//option[2]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[2]/select//option[4]"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "recipients"
-      },
-      "text": "w2gi@panalinks.com"
-    },
-    {
+                 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
-
-    
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "messageReplyTo"
+      },
+      "text": "riyer@where2gitit.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "messageFromName"
+      },
+      "text": "Himanshu"
+    },
+                 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "messageFrom"
+      },
+      "text": "himanshu@panalinks.com"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "add_sched"
+        "value": "start_slide_next"
       }
     },
-     {
+                 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "btnSkipSchedule"
+      }
+    },
+                 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//html/body"
+      },
+      "text": "this is a test mail."
+    },
+                 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "editMessageSubmit"
+      }
+    },
+             {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+		 {
+      "type": "pause",
+      "waitTime": "7000"
     }
-
   ]
 }
