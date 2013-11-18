@@ -82,8 +82,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#update-delete"
+        "type": "xpath",
+        "value": "//div[@id='sched-box']//label[.='Update-Delete']"
       }
     },
 
