@@ -94,8 +94,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "locations"
+        "type": "class",
+        "value": "file_type_radio filetype"
       }
     },
     {
