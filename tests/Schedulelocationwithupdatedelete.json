@@ -82,7 +82,7 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link test",
+        "type": "link text",
         "value": "Update-Delete"
       }
     },
