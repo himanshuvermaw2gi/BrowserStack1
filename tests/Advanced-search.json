@@ -32,9 +32,9 @@
     },
                  {
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "4000"
     },
-    {
+                {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -63,144 +63,93 @@
         "value": "change_account"
       }
     },
-                 {
+                {
       "type": "pause",
       "waitTime": "4000"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Leads\"]"
-      }
-    },
-                 {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "NotActiveTab"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='leads']//a[.='Search Subscribers']"
-      }
-    },
-    {
       "type": "setElementText",
       "locator": {
-        "type": "id",
-        "value": "firstname_input"
+        "type": "name",
+        "value": "addressline"
       },
-      "text": "test12"
-    },
-                 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "lastname_input"
-      },
-      "text": "panalink"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "emailaddress_input"
-      },
-      "text": "himanshu@panalinks.com"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "city_input"
-      },
-      "text": "New Delhi"
-    },
-                 {
-      "type": "pause",
-      "waitTime": "4000"
+      "text": "alabama"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[1]"
+        "value": "//form[@id='locator_search']/ul/li[2]/select//option[235]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+        "value": "//form[@id='locator_search']/ul/li[2]/select//option[237]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+        "value": "//form[@id='locator_search']/ul/li[2]/select//option[237]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+        "value": "//form[@id='locator_search']/ul/li[2]/select//option[237]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+        "value": "//form[@id='locator_search']/ul/li[2]/select//option[237]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+        "value": "//form[@id='locator_search']/ul/li[2]/select//option[237]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[10]"
+        "value": "//form[@id='locator_search']/ul/li[2]/select//option[1]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='search_lead_form']/table/tbody/tr[7]/td[2]/select//option[13]"
+        "value": "//form[@id='locator_search']/ul/li[2]/select//option[1]"
       }
     },
-                 {
-      "type": "pause",
-      "waitTime": "5000"
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='locator_search']/ul/li[2]/select//option[1]"
+      }
     },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
-        "type": "css selector",
-        "value": "#search_lead_form > #search_lead_form_inputs > tfoot > tr > td.centered_row > ul.liInlineBlock > li > #search_lead_button"
+        "type": "xpath",
+        "value": "//form[@id='locator_search']/ul/li[3]/select//option[3]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='locator_search']/ul/li[4]/select//option[2]"
       }
     },
                  {
@@ -211,12 +160,45 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "advanced_search_button"
       }
     },
                  {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "9000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "location_submit"
+      }
+    },
+                 {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "close_alert"
+      }
+    },
+                 {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Layer.TMS_6']/img[3]"
+      }
+    },
+                 {
+      "type": "pause",
+      "waitTime": "4000"
     }
   ]
 }
