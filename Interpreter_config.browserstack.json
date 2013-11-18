@@ -12,6 +12,7 @@
           },
           "browserOptions":  {
             "browserName": "firefox",
+            "plattform" : "OS X Lion",
             "acceptSslCerts": true,
             "browserstack.user": "Himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
