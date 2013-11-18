@@ -203,13 +203,7 @@
       "waitTime": "4000"
     },
 
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='sched-box']/table[4]/tbody/tr[5]/td[2]/select//option[6]"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
