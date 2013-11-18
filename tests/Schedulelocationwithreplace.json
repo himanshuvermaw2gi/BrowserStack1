@@ -77,11 +77,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "NotActiveTab"
+        "value": "Schedule"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
