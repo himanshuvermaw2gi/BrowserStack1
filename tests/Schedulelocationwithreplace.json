@@ -94,15 +94,15 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "locations"
+        "type": "css selector",
+        "value": "#locations"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "replace_radio"
+        "type": "css selector",
+        "value": "#replace"
       }
     },
     {
