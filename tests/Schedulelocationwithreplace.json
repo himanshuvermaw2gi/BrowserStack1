@@ -94,8 +94,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[4]/div[2]/div[1]/form/div[2]/div/table[2]/tbody/tr[2]/td[2]/ul/li[1]/input"
+        "type": "id",
+        "value": "locations"
       }
     },
     {
