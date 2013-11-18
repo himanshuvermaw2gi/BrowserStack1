@@ -82,8 +82,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Update-Delete"
+        "type": "css selector",
+        "value": "#update-delete"
       }
     },
 
