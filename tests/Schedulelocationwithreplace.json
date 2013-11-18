@@ -199,6 +199,11 @@
       "text": "w2gi@panalinks.com"
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
