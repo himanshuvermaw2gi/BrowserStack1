@@ -94,8 +94,15 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[4]/div[2]/div[1]/form/div[2]/div/table[2]/tbody/tr[3]/td[2]/ul/li[4]/label"
+        "type": "id",
+        "value": "locations"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "replace_radio"
       }
     },
     {
