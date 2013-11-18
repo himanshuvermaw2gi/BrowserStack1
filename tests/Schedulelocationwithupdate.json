@@ -99,8 +99,9 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "append_radio"
+        "type": "xpath",
+        "value": "//div[@id='sched-box']//label[.='Update']"
+"
       }
     },
                  {
