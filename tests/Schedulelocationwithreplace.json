@@ -30,7 +30,12 @@
         "value": "submit"
       }
     },
-    {
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+   {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -45,11 +50,11 @@
       },
       "text": "dennys"
     },
-    {
+   {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_80 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_80"
       }
     },
     {
@@ -59,6 +64,11 @@
         "value": "change_account"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -191,6 +201,11 @@
         "type": "id",
         "value": "add_sched"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "4000"
     }
+
   ]
 }
