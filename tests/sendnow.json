@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-                 {
+                {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -63,9 +63,9 @@
         "value": "change_account"
       }
     },
-                 {
+                {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -74,9 +74,9 @@
         "value": "img[alt=\"Leads\"]"
       }
     },
-                 {
+                {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -85,9 +85,9 @@
         "value": "Add New Message"
       }
     },
-                 {
+    {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "setElementText",
@@ -95,11 +95,7 @@
         "type": "id",
         "value": "sms_title"
       },
-      "text": "test mail23ds"
-    },
-                 {
-      "type": "pause",
-      "waitTime": "3000"
+      "text": "testforQA2"
     },
     {
       "type": "setElementText",
@@ -107,11 +103,7 @@
         "type": "id",
         "value": "messageSubject"
       },
-      "text": "urgent123"
-    },
-                 {
-      "type": "pause",
-      "waitTime": "3000"
+      "text": "testing2"
     },
     {
       "type": "setElementText",
@@ -129,10 +121,6 @@
       },
       "text": "Himanshu"
     },
-                 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
     {
       "type": "setElementText",
       "locator": {
@@ -148,20 +136,34 @@
         "value": "start_slide_next"
       }
     },
-                 {
-      "type": "pause",
-      "waitTime": "5000"
-    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "btnSkipSchedule"
+        "value": "sendNow"
       }
     },
-                 {
-      "type": "pause",
-      "waitTime": "3000"
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='pnlReport']/p[2]/select//option[2]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "recipients"
+      },
+      "text": "riyer@where2getit.com"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Save and Continue"
+      }
     },
     {
       "type": "sendKeysToElement",
@@ -169,11 +171,7 @@
         "type": "xpath",
         "value": "//html/body"
       },
-      "text": "this is a test mail."
-    },
-                 {
-      "type": "pause",
-      "waitTime": "3000"
+      "text": "this is a test mail1"
     },
     {
       "type": "clickElement",
@@ -182,9 +180,9 @@
         "value": "editMessageSubmit"
       }
     },
-             {
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -193,9 +191,9 @@
         "value": "lightwindow_title_bar_close_link"
       }
     },
-		 {
+                {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "5000"
     }
   ]
 }
