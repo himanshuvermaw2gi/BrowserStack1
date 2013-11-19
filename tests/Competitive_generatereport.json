@@ -101,7 +101,7 @@
       "waitTime": "3000"
     },
     {
-      "type": "setElementText",
+      "type": "setElementSelected",
       "locator": {
         "type": "id",
         "value": "accounts_dropdown_1_chzn_o_110"
