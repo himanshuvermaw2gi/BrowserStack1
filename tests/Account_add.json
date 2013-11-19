@@ -92,8 +92,8 @@
    {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "table_label_contactinformation"
+        "type": "xpath",
+        "value": "//*[@id='table_label_contactinformation']/span"
       }
     },
     {
