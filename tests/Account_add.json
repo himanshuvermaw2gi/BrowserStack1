@@ -75,11 +75,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "NotActiveTab"
+        "value": "AccountDetails"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -87,6 +95,10 @@
         "type": "id",
         "value": "table_label_contactinformation"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
