@@ -115,7 +115,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_edit_in_clientcontactinformation_0"
+        "value": "action_delete_in_clientcontactinformation_0"
       }
     },
 	{
@@ -123,18 +123,10 @@
       "waitTime": "2000"
     },
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "input_lastname_in_contactdetails"
-      },
-      "text": "yadav34"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_save_edit_clientcontactinformation_0"
+        "value": "action_delete_clientcontactinformation_0"
       }
     },
 	{
