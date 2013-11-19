@@ -130,12 +130,25 @@
     
        
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "product_chk_1076046753"
+        "type": "xpath",
+        "value": "//*[@id='availableProductListDescription']/li[3]/label"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "product_chk_1076046753_description"
+      }
+    },
+    
     {
       "type": "pause",
       "waitTime": "7000"
