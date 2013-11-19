@@ -130,13 +130,7 @@
       "type": "pause",
       "waitTime": "4000"
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='input_emaillists_in_contactdetails_chzn_o_1']"
-      }
-    },
+    
     {
       "type": "setElementText",
       "locator": {
