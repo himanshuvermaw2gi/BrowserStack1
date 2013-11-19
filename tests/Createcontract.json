@@ -105,20 +105,7 @@
       },
       "text": "test1"
     },
-     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "contractStart"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "link text",
-        "value": "18"
-      }
-    },
+     
     {
       "type": "clickElement",
       "locator": {
@@ -126,13 +113,14 @@
         "value": "contractEnd"
       }
     },
-    {
-      "type": "setElementSelected",
+     {
+      "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "26"
+        "type": "xpath",
+        "value": "//div[8]/table/thead/tr[2]/td[4]/div"
       }
     },
+
     
        {
       "type": "setElementText",
