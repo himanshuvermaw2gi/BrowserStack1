@@ -132,6 +132,13 @@
     },
     
     {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_emaillists_in_contactdetails_chzn_o_0']"
+      }
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
