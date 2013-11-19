@@ -124,8 +124,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='rowsTable']/tbody/tr[1]/td[1]/ul/li[1]/img"
+        "type": "css selector",
+        "value": "#edit_row_form > #edit_row_form_inputs > tfoot > tr > td.centered_row > ul.liInlineBlock.marginT-30 > li > #edit_row_button"
       }
     },
         {
