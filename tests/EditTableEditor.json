@@ -1,0 +1,159 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://ignite.where2stageit.com/login.html"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
+      "text": "riyer"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "ram@w2gi"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit"
+      }
+    },
+        {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div > b"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "dennys"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "accounts_chzn_o_80"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "change_account"
+      }
+    },
+        {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"AdminTools\"]"
+      }
+    },{
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "NotActiveTab"
+      }
+    },
+        {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='curr_tables_chzn']/a/div/b"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='curr_tables_chzn_o_4']"
+      },
+      "text": "campaign"
+    },
+    {
+      "type" : "pause",
+      "waitTime" : "3000"
+    },
+    }
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "change_table"
+      }
+    },
+        
+        {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='rows']/table/tbody/tr[2]/td[1]/ul/li[1]/img"
+      }
+    },
+            {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#edit_row_form > #edit_row_form_inputs > tfoot > tr > td.centered_row > ul.liInlineBlock.marginT-30 > li > #edit_row_button"
+      }
+    },
+        {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Record successfully updated"
+    },
+        {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='edit_row_form']/table/tfoot/tr[1]/td/ul/li[2]/input"
+      }
+    }
+
+        
+      ]
+}
