@@ -227,10 +227,14 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//td[@id='emaillists_value']/select/option[@value='w2giclient']"
+        "value": "//*[@id='input_emaillists_in_contactdetails_chzn_o_0']"
       }
     },
     {
