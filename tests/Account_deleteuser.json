@@ -76,13 +76,13 @@
     },
 		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='group_results_list']/li[9]/ul/li[3]/img"
+        "value": "//ul[@id='user_results_list']/li[14]/ul/li[3]/img"
       }
     },
 		{
