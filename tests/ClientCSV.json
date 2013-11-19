@@ -129,6 +129,10 @@
         "value": "Account Management"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
