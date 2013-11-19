@@ -70,8 +70,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Accounts\"]"
+        "type": "link text",
+        "value": "Accounts"
       }
     },
     {
@@ -82,18 +82,18 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "AccountDetails"
+        "value": "NotActiveTab"
       }
     },
     {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "2000"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='table_label_contactinformation']/span"
+        "type": "id",
+        "value": "table_label_contactinformation"
       }
     },
     {
