@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-	{
+        {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -63,9 +63,9 @@
         "value": "change_account"
       }
     },
-	{
+        {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -74,51 +74,40 @@
         "value": "img[alt=\"AdminTools\"]"
       }
     },
+        {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Invoice Approval"
+      }
+    },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "7000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "NotActiveTab"
+        "value": "action_view_in_invoiceinformation_0"
       }
     },
-	{
+        {
       "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='curr_tables_chzn']/a/div/b"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "#curr_tables_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
-      },
-      "text": "campaign"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "em"
-      }
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "change_table"
+        "value": "lightwindow_title_bar_close_link"
       }
     },
-	{
+        {
       "type": "pause",
       "waitTime": "1000"
     }
