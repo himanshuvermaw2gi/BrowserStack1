@@ -96,8 +96,12 @@
         "value": "//*[@id='savedSOWs']"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
      {
-      "type": "setElementText",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//*[@id='savedSOWs']"
@@ -110,24 +114,7 @@
       "waitTime": "3000"
     },
 
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//table[@class='FormTable']//select[.='Select OneFellowes']//option[2]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='generateStep']/ul/li[2]/button"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
+    
 
     {
       "type": "setElementSelected",
@@ -141,10 +128,7 @@
       "waitTime": "5000"
     },
     
-        {
-      "type": "pause",
-      "waitTime": "5000"
-    },
+       
     {
       "type": "setElementSelected",
       "locator": {
