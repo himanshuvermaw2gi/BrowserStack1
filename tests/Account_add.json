@@ -117,7 +117,7 @@
         "type": "id",
         "value": "input_emailaddress_in_contactinformation"
       },
-      "text": "kapil@panalinks.com"
+      "text": "kapil01@panalinks.com"
     },
     {
       "type": "clickElement",
@@ -126,14 +126,7 @@
         "value": "action_check_in_contactinformation_0"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#input_emaillists_in_contactdetails_chzn > ul.chzn-choices"
-      }
-    },
-	{
+    	{
       "type": "pause",
       "waitTime": "4000"
     },
