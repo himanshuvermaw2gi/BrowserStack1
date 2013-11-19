@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-        {
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -63,9 +63,9 @@
         "value": "change_account"
       }
     },
-        {
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -74,40 +74,25 @@
         "value": "img[alt=\"AdminTools\"]"
       }
     },
-        {
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Invoice Approval"
+        "value": "Facebook Login"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_view_in_invoiceinformation_0"
+        "value": "fbLogin"
       }
     },
-        {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-        {
+	 {
       "type": "pause",
       "waitTime": "1000"
     }
