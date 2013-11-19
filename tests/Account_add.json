@@ -132,6 +132,17 @@
     },
     
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.default"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
