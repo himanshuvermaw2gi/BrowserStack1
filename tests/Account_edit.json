@@ -142,7 +142,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "div > b"
+        "value": "//*[@id='input_salutation_in_contactdetails_chzn']/a/div/b"
       }
     },
     
