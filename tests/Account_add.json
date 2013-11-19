@@ -70,13 +70,9 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Accounts"
+        "type": "css selector",
+        "value": "img[alt=\"Accounts\"]"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -86,10 +82,6 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -97,26 +89,56 @@
       }
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "action_new_in_contactinformation"
+      }
+    },
+	{
       "type": "pause",
       "waitTime": "2000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_emailaddress_in_contactinformation"
+      },
+      "text": "kapil@panalinks.com"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_more_actions_in_contactinformation_0"
+        "value": "action_check_in_contactinformation_0"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "action_edit_in_contactinformation_0"
+        "type": "css selector",
+        "value": "#input_emaillists_in_contactdetails_chzn > ul.chzn-choices"
       }
+    },
+	{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='input_emaillists_in_contactdetails_chzn_o_1']"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_firstname_in_contactdetails"
+      },
+      "text": "Kapil"
     },
     {
       "type": "setElementText",
@@ -124,19 +146,15 @@
         "type": "id",
         "value": "input_middlename_in_contactdetails"
       },
-      "text": "SRT01"
+      "text": "SRT03"
     },
-    
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "input_title_in_contactdetails"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
+        "value": "input_lastname_in_contactdetails"
+      },
+      "text": "yadav"
     },
     {
       "type": "clickElement",
@@ -162,10 +180,6 @@
       "text": "Mr"
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -176,8 +190,16 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "20"
+        "value": "28"
       }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_workphone_in_contactnumber"
+      },
+      "text": "0000000000"
     },
     {
       "type": "setElementText",
@@ -214,43 +236,51 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "input_address2_in_contactaddress"
-      }
-    },
-    
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.default"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
         "type": "xpath",
-        "value": "//*[@id='input_emaillists_in_contactdetails_chzn_o_0']"
+        "value": "//*[@id='input_state_in_contactaddress_chzn']/a/div/b"
+      }
+    },
+        {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "input_state_in_contactaddress_chzn_o_1"
       }
     },
     {
-      "type": "pause",
-      "waitTime": "2000"
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_address1_in_contactaddress"
+      },
+      "text": "dgdfaghgjgjghjghj"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_postalcode_in_contactaddress"
+      },
+      "text": "35004"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "input_city_in_contactaddress"
+      },
+      "text": "fl"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_save_edit_contactinformation_0"
+        "value": "action_save_new_contactinformation_0"
       }
     },
-    {
+	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
