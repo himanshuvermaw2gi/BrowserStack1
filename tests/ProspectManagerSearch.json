@@ -30,9 +30,16 @@
         "value": "submit"
       }
     },
-        {
+	{
       "type": "pause",
       "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div > b"
+      }
     },
     {
       "type": "clickElement",
@@ -63,7 +70,7 @@
         "value": "change_account"
       }
     },
-        {
+	{
       "type": "pause",
       "waitTime": "5000"
     },
@@ -73,81 +80,44 @@
         "type": "css selector",
         "value": "img[alt=\"AdminTools\"]"
       }
-    },{
+    },
+	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "2000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "NotActiveTab"
-      }
-    },
-        {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='curr_tables_chzn']/a/div/b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='curr_tables_chzn_o_4']"
+        "value": "search_name"
       },
-      "text": "campaign"
+      "text": "wafflehouse"
     },
-    {
-      "type" : "pause",
-      "waitTime" : "3000"
+	{
+      "type": "pause",
+      "waitTime": "1000"
     },
-    
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "change_table"
+        "value": "search_button_getlist"
       }
     },
-        
-       
-            {
+	{
       "type": "pause",
-      "waitTime": "10000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#rows > #rowsTable > tbody > tr.body_display_row > td.centered_row > ul.liInlineBlock > li.Tooltip > img.clickable"
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
       }
     },
-        {
+	{
       "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Record successfully updated"
-    },
-        {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//form[@id='edit_row_form']/table/tfoot/tr[1]/td/ul/li[2]/input"
-      }
+      "waitTime": "1000"
     }
-
-        
-      ]
+  ]
 }
