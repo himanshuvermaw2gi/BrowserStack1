@@ -30,16 +30,9 @@
         "value": "submit"
       }
     },
-	{
+        {
       "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "div > b"
-      }
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -70,9 +63,9 @@
         "value": "change_account"
       }
     },
-	{
+        {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -81,10 +74,11 @@
         "value": "img[alt=\"AdminTools\"]"
       }
     },
-	{
+        {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
+
     {
       "type": "setElementText",
       "locator": {
