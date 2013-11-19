@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-    {
+		{
       "type": "pause",
       "waitTime": "4000"
     },
@@ -47,13 +47,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "fellowes"
+      "text": "dennys"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "accounts_chzn_o_109"
+        "value": "accounts_chzn_o_80"
       }
     },
     {
@@ -63,60 +63,31 @@
         "value": "change_account"
       }
     },
-    {
+		{
       "type": "pause",
       "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Accounts"
+        "type": "css selector",
+        "value": "img[alt=\"Accounts\"]"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "NotActiveTab"
+        "type": "xpath",
+        "value": "//ul[@id='group_results_list']/li[9]/ul/li[3]/img"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "table_label_contractinformation"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_view_in_contractinformation_0"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
+      "waitTime": "1000"
     }
   ]
 }
