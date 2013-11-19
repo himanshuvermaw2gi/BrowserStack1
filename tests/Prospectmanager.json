@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-        {
+	{
       "type": "pause",
       "waitTime": "5000"
     },
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-        {
+	{
       "type": "pause",
       "waitTime": "5000"
     },
@@ -74,62 +74,56 @@
         "value": "img[alt=\"AdminTools\"]"
       }
     },
-        {
+	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "6000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "NotActiveTab"
+        "value": "add_location_box"
       }
     },
-        {
+	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "5000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='curr_tables_chzn']/a/div/b"
+        "type": "id",
+        "value": "autogenerateid"
       }
     },
     {
       "type": "setElementText",
       "locator": {
-        "type": "css selector",
-        "value": "#curr_tables_chzn > div.chzn-drop > div.chzn-search > input[type=\"text\"]"
+        "type": "id",
+        "value": "location_name"
       },
-      "text": "campaign"
+      "text": "test"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "curr_tables_chzn_o_4"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "change_table"
-      }
-    },
-        {
+	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='rows']/table/tbody/tr[1]/td[1]/ul/li[2]/img"
+        "type": "id",
+        "value": "location_geocode"
       }
     },
-            {
+	
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "location_submit"
+      }
+    },
+	{
       "type": "pause",
       "waitTime": "1000"
     }
