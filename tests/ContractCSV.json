@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-	{
+         {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -63,84 +63,43 @@
         "value": "change_account"
       }
     },
-	{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"AdminTools\"]"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Account Management"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "TEst"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Edit"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"AdminTools\"]"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Account Management"
-      }
-    },
-    	{
+         {
       "type": "pause",
       "waitTime": "4000"
     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"AdminTools\"]"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
+
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Download Client CSV"
+        "value": "Account Management"
       }
     },
-	{
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Download Contract CSV"
+      }
+    },
+         {
       "type": "pause",
       "waitTime": "1000"
     }
