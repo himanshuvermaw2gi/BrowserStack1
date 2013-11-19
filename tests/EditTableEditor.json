@@ -125,7 +125,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#edit_row_form > #edit_row_form_inputs > tfoot > tr > td.centered_row > ul.liInlineBlock.marginT-30 > li > #edit_row_button"
+        "value": "#rows > #rowsTable > tbody > tr.body_display_row > td.centered_row > ul.liInlineBlock > li.Tooltip > img.clickable"
       }
     },
         {
