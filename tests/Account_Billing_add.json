@@ -114,6 +114,10 @@
       },
       "text": "kapil04@panalinks.com"
     },
+    	{
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -121,13 +125,17 @@
         "value": "action_check_in_clientcontactinformation_0"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "input_firstname_in_contactdetails"
       },
-      "text": "kapil"
+      "text": "kapil1"
     },
     {
       "type": "clickElement",
@@ -142,7 +150,7 @@
         "type": "id",
         "value": "input_lastname_in_contactdetails"
       },
-      "text": "yadav"
+      "text": "yadav1"
     },
     {
       "type": "clickElement",
