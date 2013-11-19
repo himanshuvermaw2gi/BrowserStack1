@@ -144,8 +144,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "product_chk_1076046753_description"
+        "type": "xpath",
+        "value": "//*[@id='availableProductList']/li[21]/label"
       }
     },
     
