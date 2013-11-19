@@ -135,19 +135,17 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.chzn-single.chzn-single-with-drop > div > b"
-      }
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//td[@id='salutation_value']//select[.='-Select an option-Mr.Ms.']//option[2]"
+        "value": "div > b"
       }
     },
+    
     {
       "type": "clickElement",
       "locator": {
@@ -162,6 +160,10 @@
         "value": "input_title_in_contactdetails"
       },
       "text": "Mr"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
