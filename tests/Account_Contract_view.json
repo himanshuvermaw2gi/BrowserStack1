@@ -88,23 +88,12 @@
     {
       "type": "pause",
       "waitTime": "2000"
-    }, {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "table_label_clientcontactinformation"
-      }
     },
-	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_more_actions_in_clientcontactinformation_0"
+        "value": "table_label_contractinformation"
       }
     },
 	{
@@ -115,18 +104,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "action_delete_in_clientcontactinformation_0"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_delete_clientcontactinformation_0"
+        "value": "action_view_in_contractinformation_0"
       }
     },
 	{
