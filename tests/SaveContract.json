@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-	{
+        {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-	{
+        {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -74,18 +74,40 @@
         "value": "img[alt=\"AdminTools\"]"
       }
     },
-	{
+        {
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "add_location_box"
+        "type": "link text",
+        "value": "Contract Builder"
       }
     },
-	{
+        {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p[3]/select//option[16]"
+      }
+    },
+        {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='availableProductList']//label[.=' Android App ']"
+      }
+    },
+        {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -93,18 +115,24 @@
       "type": "setElementSelected",
       "locator": {
         "type": "id",
-        "value": "autogenerateid"
+        "value": "product_chk_1076046753"
       }
     },
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "location_name"
-      },
-      "text": "test"
+      "type": "pause",
+      "waitTime": "7000"
     },
-	{
+    
+   
+   
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='generateStep']/ul/li[2]/button"
+      }
+    },
+    {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -112,18 +140,10 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "location_geocode"
+        "value": "lightwindow_title_bar_close_link"
       }
     },
-	
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "location_submit"
-      }
-    },
-	{
+        {
       "type": "pause",
       "waitTime": "1000"
     }
