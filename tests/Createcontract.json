@@ -113,10 +113,10 @@
       }
     },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
-        "type": "xpath",
-        "value": "//tr[@class='headrow']//div[.='â€º']"
+        "type": "link text",
+        "value": "18"
       }
     },
     {
@@ -127,10 +127,10 @@
       }
     },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
-        "type": "xpath",
-        "value": "//div[8]/table/thead/tr[2]/td[4]/div"
+        "type": "link text",
+        "value": "26"
       }
     },
     
