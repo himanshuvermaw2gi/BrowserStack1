@@ -133,6 +133,10 @@
       }
     },
     {
+    "type" : "pause",
+    "waitTime" : "3000"
+},
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -189,50 +193,8 @@
     {
       "type": "setElementSelected",
       "locator": {
-        "type": "id",
-        "value": "product_chk_1076046754"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "xpath",
-        "value": "//ul[@id='availableProductList']/li[3]/label"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "product_chk_1076046764"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']/li[2]/label"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "product_chk_1076046760"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']/li[4]/label"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "product_chk_235467"
+        "value": "//*[@id='availableProductList']/li[3]/label"
       }
     },
     {
@@ -245,13 +207,28 @@
     {
       "type": "setElementSelected",
       "locator": {
-        "type": "id",
-        "value": "product_chk_1076046759"
+        "type": "xpath",
+        "value": "//ul[@id='availableProductList']/li[7]/label"
       }
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='availableProductList']/li[9]/label"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='availableProductList']/li[11]/label"
+      }
+    },
+    
+    {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "3000"
     },
     
     
@@ -264,7 +241,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
