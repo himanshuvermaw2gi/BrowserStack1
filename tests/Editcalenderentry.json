@@ -1,0 +1,126 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.schoolcues.com/"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_UserName"
+      },
+      "text": "manas@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_Password"
+      },
+      "text": "manas123"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_1"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "test0021"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_Recurrence_txtRecurStartDate"
+      },
+      "text": "01/23/2014"
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_lbrecurEdit"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_Recurrence_cblWeekDays_5"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_lnkRecurence"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnUpdateMaster"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ImgbtnBusinessHome"
+      }
+    }
+  ]
+}
