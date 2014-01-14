@@ -69,7 +69,8 @@
       "locator": {
         "type": "xpath",
         "value": "//*[@id='ContentPlaceHolder1_txtName']"
-      }
+      },
+      "text": "test021"
     },
     {
       "type": "sendKeysToElement",
