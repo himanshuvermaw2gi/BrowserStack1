@@ -145,13 +145,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "15000"
+      "waitTime": "20000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "ok"
+        "type": "id",
+        "value": "ContentPlaceHolder1_lnkRecurence"
       }
     },
     {
