@@ -49,17 +49,7 @@
       "type": "pause",
       "waitTime": "3000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_GVCurrentNewsLetter_lnkbtnActivate_0"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
+    
     {
       "type": "clickElement",
       "locator": {
