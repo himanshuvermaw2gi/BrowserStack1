@@ -93,20 +93,9 @@
 {
       "type": "pause",
       "waitTime": "7000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='divPanel2']/table/tbody/tr[1]/td[3]/input[1]"
-      }
-    },
-
-    {
-      "type": "pause",
-      "waitTime": "3000"
     }
+    
+    
 
   ]
 }
