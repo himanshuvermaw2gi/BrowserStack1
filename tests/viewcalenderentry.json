@@ -66,8 +66,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_ImgbtnBHome"
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_ImgbtnBusinessHome']"
       }
     },
 {
@@ -77,20 +77,15 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "more1/16/2014"
+        "type": "xpath",
+        "value": "//*[@id='HeaderUC1_LoginView2_LoginStatus1']"
       }
     },
 {
       "type": "pause",
       "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "li > strong"
-      }
+    }
+    
     }
   ]
 }
