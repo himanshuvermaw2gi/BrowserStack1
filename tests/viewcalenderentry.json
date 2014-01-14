@@ -5,9 +5,9 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://www.schoolcues.com/"
+      "url": "http://www.schoolcues.com/Default.aspx"
     },
-{
+    {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -38,6 +38,19 @@
       "type": "pause",
       "waitTime": "3000"
     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_1"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -49,43 +62,85 @@
       "type": "pause",
       "waitTime": "3000"
     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "more1/23/2014"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#aBusinessHome > li"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_1"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//table[@class='contentWidth']/tbody/tr[1]/td[1]/table/tbody/tr/td[6]/select//option[3]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='more1/23/2014']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='ContentPlaceHolder1_ImgbtnBusinessHome']"
+        "value": "//table[@class='contentWidth']/tbody/tr[1]/td/table/tbody/tr[2]/td/table/tbody/tr/td[1]/select//option[5]"
       }
     },
 {
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='HeaderUC1_LoginView2_LoginStatus1']"
+        "value": "//table[@class='contentWidth']/tbody/tr[1]/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/select//option[12]"
       }
     },
 {
       "type": "pause",
       "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ImgbtnBusinessHome"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "HeaderUC1_LoginView2_LoginStatus1"
+      }
     }
-    
-    
   ]
 }
