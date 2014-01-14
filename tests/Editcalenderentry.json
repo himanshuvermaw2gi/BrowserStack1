@@ -141,12 +141,20 @@
         "value": "ContentPlaceHolder1_plUserControl_btnAvailable"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "8000"
+    },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[@id='ContentPlaceHolder1_ucTimeSelectorStartTime_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[8]"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
@@ -155,19 +163,21 @@
         "value": "ContentPlaceHolder1_cbAllDay"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnSave"
-      }
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
+    
     {
       "type": "setElementSelected",
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_rptCategory_cbCategory_2"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
@@ -176,12 +186,20 @@
         "value": "ContentPlaceHolder1_rptCategory_cbCategory_11"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_btnSave"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
