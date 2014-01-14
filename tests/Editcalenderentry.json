@@ -75,8 +75,8 @@
     {
       "type": "sendKeysToElement",
       "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_Recurrence_txtRecurStartDate"
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_txtEventDate']"
       },
       "text": "01/23/2014"
     },
