@@ -145,13 +145,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "15000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='ContentPlaceHolder1_divRecurance']//a[.='Ok']"
+        "type": "link text",
+        "value": "ok"
       }
     },
     {
@@ -160,7 +160,7 @@
         "type": "id",
         "value": "ContentPlaceHolder1_Recurrence_txtRecurStartDate"
       },
-      "text": "\\undefined"
+      "text": "01/23/2014"
     },
     {
       "type": "clickElement",
