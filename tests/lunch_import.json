@@ -98,23 +98,12 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#ContentPlaceHolder1_fuLunchMenu"
+        "type": "xpath",
+        "value": "//div[@id='divPanel2']/table/tbody/tr[1]/td[3]/input[1]"
       }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
     },
 
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_ButtonUpload"
-      }
-    },
-{
       "type": "pause",
       "waitTime": "3000"
     }
