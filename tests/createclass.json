@@ -5,9 +5,9 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://www.schoolcues.com/Default.aspx"
+      "url": "http://www.schoolcues.com/"
     },
-    {
+{
       "type": "pause",
       "waitTime": "3000"
     },
@@ -38,108 +38,71 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_1"
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_2"
       }
     },
 {
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ParentViewText"
+        "value": "ContentPlaceHolder1_btnAddNew"
       }
     },
 {
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "more1/23/2014"
-      }
+        "value": "ContentPlaceHolder1_txtNewsLetterSubject"
+      },
+      "text": "testA12"
     },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#aBusinessHome > li"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_1"
-      }
+        "value": "ContentPlaceHolder1_txtScheduleStartDate"
+      },
+      "text": "01/23/2014"
     },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
     {
       "type": "setElementSelected",
       "locator": {
-        "type": "xpath",
-        "value": "//table[@class='contentWidth']/tbody/tr[1]/td/table/tbody/tr[2]/td/table/tbody/tr/td[1]/select//option[5]"
+        "type": "id",
+        "value": "ContentPlaceHolder1_cbCategory_0"
       }
     },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
     {
       "type": "setElementSelected",
       "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_3"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
         "type": "xpath",
-        "value": "//table[@class='contentWidth']/tbody/tr[1]/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/select//option[12]"
-      }
+        "value": "//html/body"
+      },
+      "text": "this is a testing mail"
     },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_ImgbtnBusinessHome"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "HeaderUC1_LoginView2_LoginStatus1"
+        "value": "ContentPlaceHolder1_btnSave"
       }
     }
   ]
