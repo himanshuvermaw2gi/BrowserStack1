@@ -5,12 +5,13 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://www.schoolcues.com/Default.aspx"
+      "url": "http://www.schoolcues.com/"
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
+
     {
       "type": "setElementText",
       "locator": {
@@ -38,6 +39,7 @@
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -49,67 +51,37 @@
       "type": "pause",
       "waitTime": "3000"
     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a[title=\"test01\"] > div.CalDayContent"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtDate"
+      },
+      "text": "01/24/2014"
+    },
+
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[1]//option[5]"
+        "value": "//div[@id='ContentPlaceHolder1_pnldefault']/table/tbody/tr[1]/td[3]/table/tbody/tr[1]/td/select//option[3]"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_btnAddUser"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_3"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnCancel"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_ImgbtnBusinessHome"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "HeaderUC1_LoginView2_LoginStatus1"
+        "value": "ContentPlaceHolder1_btnUpdateMaster"
       }
     }
+    
   ]
 }
