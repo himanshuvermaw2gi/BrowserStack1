@@ -65,10 +65,10 @@
     },
 
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
-        "type": "link text",
-        "value": "test0021"
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_txtName']"
       }
     },
     {
