@@ -47,6 +47,18 @@
         "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_1"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_lnkAddCalEntry']"
+      }
+    },
+    
 {
       "type": "pause",
       "waitTime": "3000"
