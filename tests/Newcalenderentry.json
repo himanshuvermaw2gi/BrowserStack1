@@ -1,0 +1,347 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.schoolcues.com/"
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_UserName"
+      },
+      "text": "manas@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_Password"
+      },
+      "text": "manas123"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_1"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@class='contentWidth']/tbody/tr[1]/td/table/tbody/tr[2]/td/table/tbody/tr/td[1]/select//option[5]"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@class='contentWidth']/tbody/tr[1]/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/select//option[3]"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@class='contentWidth']/tbody/tr[1]/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/select//option[8]"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_lnkAddCalEntry"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtName"
+      },
+      "text": "test0013"
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtDescription"
+      },
+      "text": "school activities"
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_rptCategory_cbCategory_1"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_rptCategory_cbCategory_4"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_3"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtEventDate"
+      },
+      "text": "01/23/2014"
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtEventDate"
+      },
+      "text": "01/23/2014"
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ContentPlaceHolder1_pnldefault']/table/tbody/tr[2]/td[2]/table/tbody/tr[3]/td/table/tbody/tr[3]/td"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtEventDate"
+      },
+      "text": "01/15/2014"
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnRecurrence"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_Recurrence_cblWeekDays_2"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_Recurrence_cblWeekDays_4"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='ContentPlaceHolder1_Recurrence_cblWeekDays']//td[.='Saturday']"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_Recurrence_cblWeekDays_6"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "9000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_lnkRecurence"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_Recurrence_txtRecurStartDate"
+      },
+      "text": "01/18/2014"
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ContentPlaceHolder1_ucTimeSelectorStartTime_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[4]"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ContentPlaceHolder1_ucTimeSelectorStartTime_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[10]"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ContentPlaceHolder1_ucTimeSelectorEndTime_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[11]"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_cbAllDay"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnSave"
+      }
+    }
+  ]
+}
