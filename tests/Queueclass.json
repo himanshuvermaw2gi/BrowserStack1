@@ -113,7 +113,7 @@
       "waitTime": "3000"
     },
     {
-      "type": "acceptAlert"
+      "type": "dismisstAlert"
     },
 {
       "type": "pause",
@@ -131,7 +131,7 @@
       "waitTime": "3000"
     },
     {
-      "type": "acceptAlert"
+      "type": "dismissAlert"
     }
   ]
 }
