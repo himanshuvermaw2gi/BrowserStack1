@@ -5,254 +5,98 @@
   "steps": [
     {
       "type": "get",
-      "url": "https://ignite.where2stageit.com/login.html"
+      "url": "http://www.schoolcues.com/"
     },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "loginid"
-      },
-      "text": ""
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "password"
-      },
-      "text": ""
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "submit"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "div > b"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "input[type=\"text\"]"
-      },
-      "text": "dennys"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_80"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "change_account"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Admin Tools"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Custom Invoice Builder"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='origContractInfoData']/select//option[3]"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sowName"
-      },
-      "text": "test95"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "description"
-      },
-      "text": "panalink test"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "invoicedescription"
-      },
-      "text": "panalink test1"
-    },
-    
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "autorenew"
-      }
-    },
-    {
-    "type" : "pause",
-    "waitTime" : "3000"
-},
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "contractRenewalFreq"
-      },
-      "text": "1"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "contractRenewalOnDemand"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "templatecount"
-      },
-      "text": "5"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "transactions"
-      },
-      "text": "3"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "contractNotes"
-      },
-      "text": "test"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "ponumber"
-      },
-      "text": "110045"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']/li[1]/label"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='availableProductList']/li[3]/label"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']/li[5]/label"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']/li[7]/label"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']/li[9]/label"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='availableProductList']/li[11]/label"
-      }
-    },
-    
     {
       "type": "pause",
       "waitTime": "3000"
     },
-    
-    
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_UserName"
+      },
+      "text": "manas@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_Password"
+      },
+      "text": "manas123"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "saveSOWButton"
+        "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_0"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[2]//option[2]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnAddUser"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_1"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_fuLunchMenu"
+      }
+    },
+{
       "type": "pause",
       "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "1000"
     }
+
   ]
 }
