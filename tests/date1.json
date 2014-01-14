@@ -11,7 +11,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "setElementText",
       "locator": {
@@ -29,6 +28,10 @@
       "text": "manas123"
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -39,7 +42,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -51,69 +53,49 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
-        "type": "css selector",
-        "value": "a[title=\"test01\"] > div.CalDayContent"
+        "type": "xpath",
+        "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[2]//option[3]"
       }
     },
     {
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
-      "type": "sendKeysToElement",
+      "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_Recurrence_txtRecurStartDate"
-      },
-      "text": "\\undefined"
+        "value": "ContentPlaceHolder1_btnAddUser"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='ContentPlaceHolder1_pnldefault']/table/tbody/tr[1]/td[3]/table/tbody/tr[1]/td/select//option[3]"
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_1"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_btnUpdateMaster"
+        "value": "ContentPlaceHolder1_fuLunchMenu"
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtDate"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='ContentPlaceHolder1_pnldefault']/table/tbody/tr[1]/td[3]/table/tbody/tr[2]/td[1]"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtDate"
-      },
-      "text": "01/23/2014"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnSave"
-      }
+      "type": "pause",
+      "waitTime": "3000"
     }
   ]
 }
