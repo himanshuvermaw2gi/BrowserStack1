@@ -12,10 +12,10 @@
           },
           "browserOptions":  {
             "browserName": "firefox",
-            "platform" : "MAC",
+            "platform" : "XP",
             "acceptSslCerts": true,
-            "browserstack.user": "himanshu35",
-            "browserstack.key": "CRZyGxU8EWcvoWaCDYpc",
+            "browserstack.user": "himanshuverma",
+            "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
             "browserstack.debug": true
                 
           }
