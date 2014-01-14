@@ -7,11 +7,10 @@
       "type": "get",
       "url": "http://www.schoolcues.com/Default.aspx"
     },
-{
+    {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
-
     {
       "type": "setElementText",
       "locator": {
@@ -35,11 +34,10 @@
         "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
       }
     },
-{
+    {
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -47,11 +45,10 @@
         "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_0"
       }
     },
-{
+    {
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "setElementSelected",
       "locator": {
@@ -59,11 +56,6 @@
         "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[1]//option[5]"
       }
     },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
     {
       "type": "setElementSelected",
       "locator": {
@@ -72,17 +64,20 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_btnAddUser"
       }
     },
-{
+    {
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "setElementSelected",
       "locator": {
@@ -90,12 +85,38 @@
         "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_3"
       }
     },
-{
+    {
       "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnCancel"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ImgbtnBusinessHome"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "HeaderUC1_LoginView2_LoginStatus1"
+      }
     }
-    
-    
-
   ]
 }
