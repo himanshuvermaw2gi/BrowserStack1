@@ -53,7 +53,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_btnAddNew"
+        "value": "ContentPlaceHolder1_GVCurrentNewsLetter_lnkbtnActivate_0"
       }
     },
 {
@@ -61,49 +61,87 @@
       "waitTime": "3000"
     },
     {
-      "type": "setElementText",
+      "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_txtNewsLetterSubject"
-      },
-      "text": "testA12"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtScheduleStartDate"
-      },
-      "text": "01/23/2014"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_cbCategory_0"
+        "value": "ContentPlaceHolder1_divQueue"
       }
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_3"
-      }
-    },
-    {
-      "type": "sendKeysToElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//html/body"
-      },
-      "text": "this is a testing mail"
+{
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_btnSave"
+        "value": "ContentPlaceHolder1_GVQueueNewsLetter_LinkButton1_1"
       }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_ImgbtnBusinessHome"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_2"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_divQueue"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_GVQueueNewsLetter_lnkProcessQNow_0"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "acceptAlert"
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_GVQueueNewsLetter_LBCancel_0"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "acceptAlert"
     }
   ]
 }
