@@ -59,8 +59,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "test001"
+        "type": "xpath",
+        "value": "//*[@id='more1/23/2014']"
       }
     },
     {
