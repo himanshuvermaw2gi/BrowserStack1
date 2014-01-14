@@ -5,12 +5,13 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://www.schoolcues.com/"
+      "url": "http://www.schoolcues.com/Default.aspx"
     },
-    {
+{
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "setElementText",
       "locator": {
@@ -28,20 +29,17 @@
       "text": "manas123"
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_LoginView2_LoginUser_LoginButton"
       }
     },
-    {
+{
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -49,10 +47,23 @@
         "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_0"
       }
     },
-    {
+{
       "type": "pause",
       "waitTime": "3000"
     },
+
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[1]//option[5]"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "setElementSelected",
       "locator": {
@@ -61,41 +72,52 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_btnAddUser"
       }
     },
-    {
+{
       "type": "pause",
       "waitTime": "3000"
     },
+
     {
       "type": "setElementSelected",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_1"
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_3"
       }
     },
-    {
+{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "7000"
     },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#ContentPlaceHolder1_fuLunchMenu"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_fuLunchMenu"
+        "value": "ContentPlaceHolder1_ButtonUpload"
       }
     },
-    {
+{
       "type": "pause",
       "waitTime": "3000"
     }
+
   ]
 }
