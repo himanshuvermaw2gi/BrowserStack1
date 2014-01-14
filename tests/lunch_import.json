@@ -9,7 +9,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementText",
@@ -55,6 +55,10 @@
         "type": "xpath",
         "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[1]//option[5]"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
