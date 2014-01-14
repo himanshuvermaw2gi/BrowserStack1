@@ -61,14 +61,14 @@
     },
 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "8000"
     },
 
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "1/23/2014"
+        "type": "xpath",
+        "value": "//*[@id='more1/23/2014']"
       }
     },
 {
