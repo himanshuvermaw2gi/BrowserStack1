@@ -150,8 +150,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#ContentPlaceHolder1_lnkRecurence"
+        "type": "xpath",
+        "value": "//div[@id='ContentPlaceHolder1_divRecurance']//a[.='Ok']"
       }
     },
     {
