@@ -105,7 +105,7 @@
       "type": "setElementText",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id="tinymce"]"
+        "value": "//[@id='tinymce']"
       },
       "text": "This is a test mail"
     },
