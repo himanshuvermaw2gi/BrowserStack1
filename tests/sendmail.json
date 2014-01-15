@@ -64,19 +64,7 @@
     "waitTime": "3000"
     },
 
-    {
-      "type": "sendKeysToElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtNewsLetterSubject"
-      },
-      "text": "\\undefined"
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-
+    
     {
       "type": "setElementText",
       "locator": {
@@ -244,14 +232,7 @@
         "value": "ContentPlaceHolder1_divQueue"
       }
     },
-{
-    "type": "pause",
-    "waitTime": "8000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Message TypeDate CreatedSubjectTarget ListDate Scheduled"
-    },
+
 {
     "type": "pause",
     "waitTime": "3000"
