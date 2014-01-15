@@ -53,7 +53,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_lnkArchive"
+        "value": "ContentPlaceHolder1_GVCurrentNewsLetter_LinkButton1_0"
       }
     },
 {
@@ -61,10 +61,18 @@
     "waitTime": "3000"
     },
     {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtNewsLetterSubject"
+      },
+      "text": "Test in safari 10"
+    },
+    {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "td.jquerybubblepopup-bottom-middle"
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnSave"
       }
     },
 {
@@ -72,10 +80,28 @@
     "waitTime": "3000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementNotSelected",
       "locator": {
-        "type": "css selector",
-        "value": "td.jquerybubblepopup-bottom-middle"
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementNotSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_1"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_3"
       }
     },
 {
@@ -86,8 +112,20 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_ImgBtnBack"
+        "value": "ContentPlaceHolder1_txtScheduleStartDate"
       }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtScheduleStartDate"
+      },
+      "text": "02/21/2014"
     },
 {
     "type": "pause",
@@ -97,19 +135,19 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_ImgbtnBusinessHome"
+        "value": "ContentPlaceHolder1_btnSaveView2"
       }
     },
 {
     "type": "pause",
-    "waitTime": "3000"
+    "waitTime": "7000"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "HeaderUC1_LoginView2_LoginStatus1"
-      }
+      "type": "dismissAlert"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
     }
   ]
 }
