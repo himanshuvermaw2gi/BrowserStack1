@@ -42,7 +42,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_6"
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_7"
       }
     },
 {
@@ -53,7 +53,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_GVCurrentNewsLetter_LinkButton1_0"
+        "value": "ContentPlaceHolder1_LinkButton2"
       }
     },
 {
@@ -64,9 +64,218 @@
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_txtNewsLetterSubject"
+        "value": "ContentPlaceHolder1_txtApptName"
       },
-      "text": "Test in safari 10"
+      "text": "test121"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtLocation"
+      },
+      "text": "florida"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtApptDes"
+      },
+      "text": "test"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep1"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtDiscreteDate"
+      },
+      "text": "01/18/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ContentPlaceHolder1_TDiscreteStartAt_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[10]"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='ContentPlaceHolder1_TDiscreteUntil_pnlTimeSelector']/table/tbody/tr/td[1]/select//option[11]"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtResponseRequiredBy"
+      },
+      "text": "01/19/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnDiscreteAdd"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtDiscreteDate"
+      },
+      "text": "01/19/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtResponseRequiredBy"
+      },
+      "text": "01/18/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_2"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnContinueStep3"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtMessageSendOn"
+      },
+      "text": "01/18/2014"
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_cbPRDayBefore"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_cbNRDayBefore"
+      }
+    },
+{
+    "type": "pause",
+    "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -80,28 +289,10 @@
     "waitTime": "3000"
     },
     {
-      "type": "setElementNotSelected",
+      "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_2"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "setElementNotSelected",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_1"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_clUserControl_RepeaterConList_rptCB_3"
+        "value": "ContentPlaceHolder1_btnCancel"
       }
     },
 {
@@ -112,42 +303,8 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_txtScheduleStartDate"
+        "value": ""
       }
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtScheduleStartDate"
-      },
-      "text": "02/21/2014"
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_btnSaveView2"
-      }
-    },
-{
-    "type": "pause",
-    "waitTime": "7000"
-    },
-    {
-      "type": "dismissAlert"
-    },
-{
-    "type": "pause",
-    "waitTime": "3000"
     }
   ]
 }
