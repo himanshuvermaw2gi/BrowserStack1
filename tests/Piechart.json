@@ -183,37 +183,23 @@
         "value": "input.datepickerApply.GrayButton"
       }
     },
-
-    {
+        {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "li.Animate > strong"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Thematic Analytics"
-    },
-    {
-      "type": "clickElement",
+      "type": "verifyElementValue",
       "locator": {
         "type": "id",
-        "value": "back-dashboard"
-      }
+        "value": "change-chart"
+      },
+      "value": "Switch to Pie Chart"
     },
     {
       "type": "pause",
       "waitTime": "3000"
     },
+    
     {
       "type": "clickElement",
       "locator": {
@@ -223,7 +209,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     }
   ]
 }
