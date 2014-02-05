@@ -94,79 +94,26 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "useDBFilterNo"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "useDefaultRadius"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "9000"
-    },
-   
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "useCustomRadius"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "formclear"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "useDBFilterNo"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "useDefaultRadius"
+        "type": "xpath",
+        "value": "//*[@id='sched_table']/tbody/tr[1]/td[1]"
       }
     },
     {
       "type": "pause",
       "waitTime": "5000"
     },
+    
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Launchpad\"]"
+        "type": "id",
+        "value": "delete_sched"
       }
     },
     {
       "type": "pause",
       "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "logout-button"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
     }
+    
   ]
 }
