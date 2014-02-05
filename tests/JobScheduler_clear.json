@@ -109,13 +109,7 @@
       "type": "pause",
       "waitTime": "9000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//table[@id='sched_table']/tbody/tr[11]/td[1]"
-      }
-    },
+   
     {
       "type": "pause",
       "waitTime": "5000"
