@@ -37,19 +37,6 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='Launchpad']/a"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-
-   {
-      "type": "clickElement",
-      "locator": {
         "type": "css selector",
         "value": "div > b"
       }
@@ -62,28 +49,39 @@
       },
       "text": "dennys"
     },
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@class='chzn-results']//li[.='dennys']"
+      }
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "change_account"
+      }
+    },
+                {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='accounts_chzn_o_85']"
+        "value": "//*[@id='Launchpad']/a"
       }
     },
-	{
+{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='change_account']"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
+
+
     {
       "type": "pause",
       "waitTime": "3000"
