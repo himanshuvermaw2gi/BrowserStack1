@@ -158,20 +158,7 @@
       "waitTime": "8000"
     },
 
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[3]/input"
-      },
-      "text": "Japan"
-    },
-     {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-
-    {
+   {
       "type": "setElementText",
       "locator": {
         "type": "xpath",
