@@ -136,6 +136,11 @@
       },
       "text": "01126198232"
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "setElementText",
       "locator": {
@@ -144,6 +149,11 @@
       },
       "text": "India"
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "setElementText",
       "locator": {
@@ -152,6 +162,11 @@
       },
       "text": "Japan"
     },
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "setElementText",
       "locator": {
