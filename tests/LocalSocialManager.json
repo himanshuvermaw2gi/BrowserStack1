@@ -80,40 +80,17 @@
       "type": "pause",
       "waitTime": "3000"
     },
+    
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Job Scheduler"
+        "value": "Local Social Manager"
       }
     },
     {
       "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='sched_table']/tbody/tr[1]/td[1]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "delete_sched"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "2000"
     }
-    
   ]
 }
