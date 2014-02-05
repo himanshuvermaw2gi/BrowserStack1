@@ -129,6 +129,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "css selector",
