@@ -72,36 +72,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='Launchpad']/a"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "date-range"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
         "type": "css selector",
-        "value": "a.datepickerGoPrev > span"
+        "value": "img[alt=\"Reputation\"]"
       }
     },
     {
@@ -112,21 +84,120 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "1"
+        "value": "Job Scheduler"
       }
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[3]/td[2]/a"
+        "type": "id",
+        "value": "useDBFilterNo"
       }
     },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "useDefaultRadius"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "frequency"
+      },
+      "text": "4"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "jobname"
+      },
+      "text": "google-almonds006a"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     
+    
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='acquisitionSettings']/tbody[2]/tr/td[2]/select//option[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "useDefaultRadius"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='matchSettings']/tbody/tr[2]/td[2]/select//option[3]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "useDefaultRadius"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[@id='matchSettings']/tbody/tr[3]/td[2]/select//option[4]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "useDefaultRadius"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "matchRadius"
+      },
+      "text": "500"
+    },
+     {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='recipients']"
+      },
+         "text" : "himanshu@panalinks.com"
+    },
+  
     {
       "type": "pause",
       "waitTime": "5000"
@@ -134,82 +205,42 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "a.datepickerGoPrev > span"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-   
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "table.datepickerViewDays.datepickerLastView > thead > tr > th > a.datepickerGoNext > span"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "table.datepickerViewDays.datepickerLastView > thead > tr > th > a.datepickerGoNext > span"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[3]/td[4]/a/span"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.datepickerApply.GrayButton"
-      }
-    },
-        {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "verifyElementValue",
-      "locator": {
         "type": "id",
-        "value": "change-chart"
-      },
-      "value": "Switch to Pie Chart"
+        "value": "useDBFilterNo"
+      }
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "logout-button"
+        "value": "useDefaultRadius"
       }
     },
     {
       "type": "pause",
       "waitTime": "3000"
+    },
+      {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "add_sched"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
     }
   ]
 }
