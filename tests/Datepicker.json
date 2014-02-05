@@ -69,11 +69,11 @@
       "waitTime": "4000"
     },
 
-     {
+    {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Reputation\"]"
+        "type": "xpath",
+        "value": "//*[@id='Launchpad']/a"
       }
     },
 {
@@ -86,7 +86,24 @@
       "type": "pause",
       "waitTime": "3000"
     },
-   
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "date-range"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoPrev > span"
+      }
+    },
     {
       "type": "pause",
       "waitTime": "3000"
@@ -95,7 +112,7 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Configuration"
+        "value": "1"
       }
     },
     {
@@ -103,111 +120,72 @@
       "waitTime": "4000"
     },
     {
-      "type": "verifyTextPresent",
-      "text": "Negative Review Threshold"
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[3]/td[2]/a"
+      }
+    },
+    
+    {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
-      "type": "verifyTextPresent",
-      "text": "View Subscribers"
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.datepickerGoPrev > span"
+      }
     },
     {
-      "type": "verifyTextPresent",
-      "text": "Email Alert"
+      "type": "pause",
+      "waitTime": "3000"
+    },
+   
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "table.datepickerViewDays.datepickerLastView > thead > tr > th > a.datepickerGoNext > span"
+      }
     },
     {
       "type": "pause",
       "waitTime": "3000"
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='ReviewTable']/div[3]/table/tbody/tr[2]/td[2]/select//option[3]"
+        "type": "css selector",
+        "value": "table.datepickerViewDays.datepickerLastView > thead > tr > th > a.datepickerGoNext > span"
       }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='ReviewTable']/div[3]/table/tbody/tr[3]/td[2]/select//option[5]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='ReviewTable']/div[3]/table/tbody/tr[4]/td[2]/select//option[5]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='ReviewTable']/div[3]/table/tbody/tr[6]/td[2]/select//option[5]"
-      }
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Google+ Local"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Yelp"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Yahoo!"
-    },
-    
-    {
-      "type": "verifyTextPresent",
-      "text": "Facebook"
-    },
-    {
-      "type": "verifyElementValue",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='ReviewTable']/div[3]/table/tfoot/tr/td/input"
-      },
-      "value": "Save Changes"
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
-    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='datepickerContainer']/table/tbody/tr/td[5]/table/tbody[2]/tr[3]/td[4]/a/span"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.datepickerApply.GrayButton"
+      }
+    },
    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Back to Review Monitor"
-      }
-    },
-     {
       "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Back to Launchpad"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "logout-button"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
+      "waitTime": "2000"
     }
   ]
 }
