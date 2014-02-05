@@ -69,11 +69,11 @@
       "waitTime": "4000"
     },
 
-    {
+     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='Launchpad']/a"
+        "type": "css selector",
+        "value": "img[alt=\"Reputation\"]"
       }
     },
 {
@@ -86,13 +86,7 @@
       "type": "pause",
       "waitTime": "3000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Reputation\"]"
-      }
-    },
+   
     {
       "type": "pause",
       "waitTime": "3000"
