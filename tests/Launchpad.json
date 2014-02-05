@@ -252,6 +252,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -315,46 +319,7 @@
         "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[7]/td[1]/input"
       }
     },
-    {
-      "type": "verifyText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[1]/td[2]"
-      },
-      "text": "Locator Searches"
-    },
-        {
-      "type": "verifyText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[3]/td[2]"
-      },
-      "text": "Driving Direction Requested"
-    },
-        {
-      "type": "verifyText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[5]/td[2]"
-      },
-      "text": "Locator Search Results"
-    },
-        {
-      "type": "verifyText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[6]/td[2]"
-      },
-      "text": "Page View"
-    },
-        {
-      "type": "verifyText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[7]/td[2]"
-      },
-      "text": "Visitors"
-    },
+    
      {
       "type": "pause",
       "waitTime": "3000"
@@ -365,6 +330,10 @@
         "type": "id",
         "value": "save-btn"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
