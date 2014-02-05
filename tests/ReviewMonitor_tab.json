@@ -47,13 +47,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "dennys"
+      "text": "fellowes"
     },
      {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='chzn-results']//li[.='dennys']"
+        "value": "//ul[@class='chzn-results']//li[.='fellowes']"
       }
     },
 
