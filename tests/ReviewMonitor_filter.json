@@ -155,14 +155,14 @@
     },
      {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "8000"
     },
 
     {
       "type": "setElementText",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='SearchDialogTemplate']/div[1]/label[3]/input"
+        "value": "//div[@class='dialog-content']/label[3]/input"
       },
       "text": "Japan"
     },
