@@ -70,7 +70,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#myModal > div.modal-footer > a.btn"
+        "value": "#myModal1 > div.modal-header > a.close"
       }
     },
     {
