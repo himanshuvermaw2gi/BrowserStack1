@@ -12,7 +12,7 @@
       "waitTime": "3000"
     },
 
-     {
+    {
       "type": "setElementText",
       "locator": {
         "type": "xpath",
@@ -57,7 +57,7 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[1]//option[8]"
+        "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[1]//option[5]"
       }
     },
 {
@@ -69,10 +69,10 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[2]//option[2]"
+        "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[2]//option[3]"
       }
     },
-{
+   {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -85,12 +85,16 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_txtName"
       },
-      "text": "SRT001"
+      "text": "SRT002"
     },
     {
       "type": "setElementSelected",
@@ -108,8 +112,12 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='ContentPlaceHolder1_pnldefault']/table/tbody/tr[1]/td[3]/table/tbody/tr[1]/td/select//option[2]"
+        "value": "//div[@id='ContentPlaceHolder1_pnldefault']/table/tbody/tr[1]/td[3]/table/tbody/tr[1]/td/select//option[3]"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -131,12 +139,16 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "ContentPlaceHolder1_txtDate"
       },
-      "text": "02/24/2014"
+      "text": "01/24/2014"
     },
 
     {
@@ -150,19 +162,17 @@
       "type": "pause",
       "waitTime": "3000"
     },
-    
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "ContentPlaceHolder1_btnAddUser"
+        "value": "ParentViewText"
       }
     },
     {
       "type": "pause",
       "waitTime": "3000"
     },
-    
     {
       "type": "clickElement",
       "locator": {
