@@ -59,7 +59,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='tour-3']/div[1]/div/a[2]"
+        "value": "//a[contains(text(),'More Info')])[2]/a"
       }
     },
     {
@@ -70,7 +70,7 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "html body.modal-open div#home.main-container section#features.section div.container div.row div.span12 div.row div.span6 div.extra-features div#myModal12.modal div.modal-footer a.btn"
+        "value": "#myModal > div.modal-footer > a.btn"
       }
     },
     {
@@ -81,9 +81,241 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='features']/div/div/div/div[3]/div[1]/div/a[2]"
+        "value": "//a[contains(text(),'More Info')])[3]/a"
       }
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#myModal1 > div.modal-header > a.close"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//a[contains(text(),'More Info')])[4]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#myModal12 > div.modal-footer > a.btn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//a[contains(text(),'More Info')])[5]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#myModal13 > div.modal-footer > a.btn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+ {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     }
+
 
 ]
 }
