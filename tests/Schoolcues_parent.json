@@ -69,7 +69,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='more1/23/2014']"
+        "value": "//*[@id='2/23/2014']"
       }
     },
 {
