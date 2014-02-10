@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://www.schoolcues.com/"
+      "url": "http://www.schoolcues.com/Default.aspx"
     },
 {
       "type": "pause",
