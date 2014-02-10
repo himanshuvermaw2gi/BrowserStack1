@@ -11,8 +11,8 @@
             "path": "/wd/hub"
           },
           "browserOptions":  {
-            "browserName": "firefox",
-            "platform" : "XP",
+            "browserName": "chrome",
+            "platform" : "ANY",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
