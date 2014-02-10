@@ -48,7 +48,7 @@
         "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_0"
       }
     },
- {
+   {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -68,15 +68,11 @@
       },
       "text": "test01"
     },
-
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtDate"
-      },
-      "text": "01/23/2014"
+      "type": "pause",
+      "waitTime": "4000"
     },
+    
 
     {
       "type": "setElementSelected",
