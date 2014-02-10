@@ -7,315 +7,77 @@
       "type": "get",
       "url": "http://www.schoolcues.com/"
     },
-    {
+     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
+    },
+
+     {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='LoginView2_LoginUser_UserName']"
+      },
+      "text": "manas@panalinks.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='LoginView2_LoginUser_Password']"
+      },
+      "text": "manas123"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[1]/a"
+        "value": "//*[@id='LoginView2_LoginUser_LoginButton']"
       }
     },
-    {
+ {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
+
+
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[2]/a"
+        "type": "id",
+        "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_0"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='video']/div/div/div[2]/div[2]/p/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='tour-3']/div[2]/div/a[2]"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "10000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#myModal12 > div.modal-footer > a.btn"
+        "value": "a[title=\"test01\"] > div.CalDayContent"
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtDate"
+      },
+      "text": "01/23/2014"
     },
-   {
-      "type": "clickElement",
+
+    {
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//a[contains(text(),'More Info')])[3]/a"
-      }
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#myModal1 > div.modal-header > a.close"
+        "value": "//div[@id='ContentPlaceHolder1_pnldefault']/table/tbody/tr[1]/td[3]/table/tbody/tr[1]/td/select//option[3]"
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//a[contains(text(),'More Info')])[4]/a"
+        "type": "id",
+        "value": "ContentPlaceHolder1_btnUpdateMaster"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#myModal12 > div.modal-footer > a.btn"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//a[contains(text(),'More Info')])[5]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#myModal13 > div.modal-footer > a.btn"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
- {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='top-nav']/div/div/div/div/ul/li[3]/a"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
     }
-
-
-]
+    
+  ]
 }
