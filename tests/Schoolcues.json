@@ -5,7 +5,7 @@
   "steps": [
     {
       "type": "get",
-      "url": "http://www.schoolcues.com/"
+      "url": "http://www.schoolcues.com/Default.aspx"
     },
      {
       "type": "pause",
@@ -35,7 +35,7 @@
         "value": "//*[@id='LoginView2_LoginUser_LoginButton']"
       }
     },
- {
+    {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -48,13 +48,27 @@
         "value": "ContentPlaceHolder1_dlModuleList_lnkModuleName_0"
       }
     },
+ {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "a[title=\"test01\"] > div.CalDayContent"
+        "type": "xpath",
+        "value": "//*[@id='ContentPlaceHolder1_calMonthView']/tbody/tr[4]/td[2]"
       }
     },
+     {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "ContentPlaceHolder1_txtName"
+      },
+      "text": "test01"
+    },
+
     {
       "type": "setElementText",
       "locator": {
