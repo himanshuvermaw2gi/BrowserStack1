@@ -57,7 +57,7 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[1]//option[5]"
+        "value": "//td[@class='moduleHeaderText']/table/tbody/tr[3]/td/table/tbody/tr/td[1]/select[1]//option[8]"
       }
     },
 {
@@ -136,7 +136,7 @@
         "type": "id",
         "value": "ContentPlaceHolder1_txtDate"
       },
-      "text": "01/24/2014"
+      "text": "02/24/2014"
     },
 
     {
