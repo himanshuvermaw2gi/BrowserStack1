@@ -59,7 +59,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//a[contains(text(),'More Info')])[2]"
+        "value": "//*[@id='tour-3']/div[1]/div/a[2]"
       }
     },
     {
