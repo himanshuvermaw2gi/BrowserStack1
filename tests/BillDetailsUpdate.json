@@ -109,6 +109,10 @@
         "value": "//*[@id='table_label_clientcontactinformation']/span"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "7000"
+    },
     {
       "type": "clickElement",
       "locator": {
