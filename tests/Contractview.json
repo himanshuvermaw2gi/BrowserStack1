@@ -94,8 +94,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#table_label_contractinformation"
+        "type": "xpath",
+        "value": "//*[@id='table_label_contractinformation']"
       }
     },
 	{
