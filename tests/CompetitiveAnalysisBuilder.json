@@ -107,7 +107,7 @@
         "type": "xpath",
         "value": "//*[@id='accounts_dropdown_1_chzn']/div/div/input"
       },
-      "text": "fellowes"
+      "text": "dennys"
     },
  {
       "type": "pause",
@@ -118,14 +118,14 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='accounts_dropdown_1_chzn_o_118']"
+        "value": "//*[@id='accounts_dropdown_1_chzn_o_88']"
       }
     },
 
        
         {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "6000"
     },
     {
       "type": "clickElement",
@@ -136,16 +136,16 @@
     },
         {
       "type": "pause",
-      "waitTime": "9000"
+      "waitTime": "3000"
     },
-    {
+    
+     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
-    }
-      
+    } 
     
   ]
 }
