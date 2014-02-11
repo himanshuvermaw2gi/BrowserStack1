@@ -109,10 +109,19 @@
         "value": "//*[@id='table_label_clientcontactinformation']/span"
       }
     },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='action_more_actions_in_clientcontactinformation_0']"
+      }
+    },
 {
       "type": "pause",
       "waitTime": "15000"
     },
+    
+    
 
     {
       "type": "clickElement",
