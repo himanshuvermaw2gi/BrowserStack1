@@ -42,27 +42,19 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "css selector",
-        "value": "#chzn-single>span"
+        "value": "input[type=\"text\"]"
       },
-      "text": "fellowes"
+      "text": "dennys"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@class='chzn-results']//li[.='fellowes']"
+        "value": "//ul[@class='chzn-results']//li[.='dennys']"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
     },
 
     {
@@ -112,16 +104,21 @@
    {
       "type": "setElementText",
       "locator": {
-        "type": "css selector",
-        "value": "input[type=\"text\"]"
+        "type": "xpath",
+        "value": "//*[@id='accounts_dropdown_1_chzn']/div/div/input"
       },
       "text": "fellowes"
     },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//ul[@id='accounts_dropdown_1_chzn']//li[.='fellowes']"
+        "value": "//*[@id='accounts_dropdown_1_chzn_o_118']"
       }
     },
 
@@ -139,7 +136,7 @@
     },
         {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "9000"
     },
     {
       "type": "clickElement",
