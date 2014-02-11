@@ -42,6 +42,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "css selector",
@@ -55,6 +59,10 @@
         "type": "xpath",
         "value": "//ul[@class='chzn-results']//li[.='fellowes']"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "4000"
     },
 
     {
