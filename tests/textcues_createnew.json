@@ -35,7 +35,7 @@
         "value": "//*[@id='LoginView2_LoginUser_LoginButton']"
       }
     },
-    },
+    
     {
       "type": "pause",
       "waitTime": "10000"
