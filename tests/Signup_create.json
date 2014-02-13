@@ -370,17 +370,7 @@
       "waitTime": "3000"
     },
 
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "ContentPlaceHolder1_txtMessageSendOn"
-      }
-    },
-{
-      "type": "pause",
-      "waitTime": "3000"
-    },
+    
 
     {
       "type": "setElementText",
@@ -388,7 +378,7 @@
         "type": "id",
         "value": "ContentPlaceHolder1_txtMessageSendOn"
       },
-      "text": "01/30/2014"
+      "text": "03/30/2014"
     },
 {
       "type": "pause",
