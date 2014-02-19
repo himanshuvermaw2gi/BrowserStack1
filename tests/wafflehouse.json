@@ -22,45 +22,17 @@
       "type": "pause",
       "waitTime": "3000"
     },
-   {
-      "type": "setElementNotSelected",
-      "locator": {
-        "type": "name",
-        "value": "addressline"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='locator_search']/table/tbody/tr/td[1]/input"
-      },
-      "text": "35004"
-    },
+   
     {
       "type": "pause",
       "waitTime": "3000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#search_button"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
+    
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Waffle House #825"
+        "value": "Waffle House #1172"
       }
     },
    {
