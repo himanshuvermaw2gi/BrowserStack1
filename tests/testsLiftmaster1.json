@@ -15,8 +15,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Locate a Dealer"
+        "type": "xpath",
+        "value": "//*[@id='menu']/ul/li[1]/a"
       }
     },
  {
