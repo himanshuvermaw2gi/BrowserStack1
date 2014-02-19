@@ -11,7 +11,6 @@
       "type": "pause",
       "waitTime": "3000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -19,85 +18,10 @@
         "value": "//*[@id='menu']/ul/li[1]/a"
       }
     },
- {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "addressline"
-      },
-      "text": "35004"
-    },
- {
       "type": "pause",
       "waitTime": "3000"
     },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "search_button"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "map_view_btn"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "list_view_btn"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "home_btn"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='menu']/ul/li[1]/a"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
     {
       "type": "setElementText",
       "locator": {
@@ -107,10 +31,32 @@
       "text": "35004"
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "search_button"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "a.more_info_btn.authorizedMore_info3"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "DRIVING DIRECTIONS"
       }
     }
   ],
