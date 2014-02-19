@@ -18,11 +18,21 @@
         "value": "Restaurant Locator"
       }
     },
-{
+    {
       "type": "pause",
       "waitTime": "3000"
     },
-   
+   {
+      "type": "clearSelections",
+      "locator": {
+        "type": "name",
+        "value": "addressline"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "setElementText",
       "locator": {
