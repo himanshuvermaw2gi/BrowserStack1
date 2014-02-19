@@ -1,0 +1,122 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://m.liftmaster.com/"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Locate a Dealer"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "35004"
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search_button"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "map_view_btn"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "list_view_btn"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "home_btn"
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": " Â Â Â Locate a Dealer "
+      }
+    },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "35004"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search_button"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
