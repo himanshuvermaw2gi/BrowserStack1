@@ -23,7 +23,7 @@
       "waitTime": "3000"
     },
    {
-      "type": "clearSelections",
+      "type": "removeAllSelections",
       "locator": {
         "type": "name",
         "value": "addressline"
