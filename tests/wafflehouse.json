@@ -22,15 +22,12 @@
       "type": "pause",
       "waitTime": "3000"
     },
-   {
-      "type": "pause",
-      "waitTime": "3000"
-    },
+   
     {
       "type": "setElementText",
       "locator": {
-        "type": "name",
-        "value": "addressline"
+        "type": "xpath",
+        "value": "//*[@id='locator_search']/table/tbody/tr/td[1]/input"
       },
       "text": "35004"
     },
