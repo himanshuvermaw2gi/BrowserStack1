@@ -38,7 +38,7 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//table/tbody/tr/td/div[1]/div/form[1]/table[2]/tbody/tr[2]/td[2]/select//option[4]"
+        "value": "//*[@id='collection_poi']/tbody/tr[1]/td[2]/a[1]"
       }
     },
     {
