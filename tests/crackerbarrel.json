@@ -1,0 +1,106 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.crackerbarrel.com/"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input.text-field"
+      },
+      "text": "35004"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "footer_Locations_submit"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//table/tbody/tr/td/div[1]/div/form[1]/table[2]/tbody/tr[2]/td[2]/select//option[4]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table/tbody/tr/td/div[1]/div/form[1]/table[2]/tbody/tr[2]/td[3]/input"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table/tbody/tr/td/div[3]/div[2]/table/tbody/tr[1]/td[2]/a[1]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//table/tbody/tr/td/div[3]/div[1]/div[1]/div[1]/div[6]/div/div/div[2]/div/div[5]/form/input[1]"
+      },
+      "text": "al"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table/tbody/tr/td/div[3]/div[1]/div[1]/div[1]/div[6]/div/div/div[2]/div/div[5]/form/input[2]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table/tbody/tr/td/div[1]/div/form[2]/table[1]/tbody/tr/td/a/span"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
