@@ -49,8 +49,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#OL_Icon_149 > div"
+        "type": "xpath",
+        "value": "//div[@id='OL_Icon_149']//div[.='A']"
       }
     },
     {
