@@ -120,13 +120,16 @@
         "value": "from_dt"
       }
     },
-     
+     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
 
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "datepicker-from_dt-prev"
+        "type": "xpath",
+        "value": "//div[@id='datepicker-from_dt']/table/thead/tr/th[1]"
       }
     },
      {
