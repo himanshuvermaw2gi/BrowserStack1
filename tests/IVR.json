@@ -120,10 +120,7 @@
         "value": "from_dt"
       }
     },
-     {
-      "type": "pause",
-      "waitTime": "5000"
-    },
+     
 
     {
       "type": "clickElement",
