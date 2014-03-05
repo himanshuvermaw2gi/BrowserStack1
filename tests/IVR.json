@@ -137,8 +137,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "datepicker-from_dt-prev"
+        "type": "css selector",
+        "value": "#datepicker-from_dt-prev"
       }
     },
     {
