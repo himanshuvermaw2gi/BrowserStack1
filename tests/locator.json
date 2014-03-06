@@ -129,25 +129,10 @@
     },
       {
       "type": "pause",
-      "waitTime": "10000"
+      "waitTime": "5000"
     },
 
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='date_back']"
-      }
-    },
-
-     {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='date_back']"
-      }
-    },
-
+   
     {
       "type": "clickElement",
       "locator": {
