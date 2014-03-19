@@ -18,19 +18,8 @@
     {
       "type": "pause",
       "waitTime": "8000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": ""
-    },
-    {
-      "type": "pause",
-      "waitTime": "7000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Copyright Â© 2014 GLTYR. All rights reserved."
     }
+    
   ],
   "data": {
     "configs": {},
