@@ -1,0 +1,30 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www1.gltyr.com/view/vVkA0vzOUP2/DGfpCO6qdM6"
+    },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Details"
+    },
+    {
+      "type": "pause",
+      "waitTime": "6000"
+    }
+    
+   
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
