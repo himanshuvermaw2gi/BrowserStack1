@@ -1,0 +1,49 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www1.gltyr.com/view/vVkA0vzOUP2/5USNPEW98Rk"
+    },
+    {
+      "type": "pause",
+      "waitTime": "10000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/div/div[2]/div[2]/a/div"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "10000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "resumeVideo"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "10000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Close"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
