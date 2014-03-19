@@ -65,8 +65,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#myModalvideo > div.modal-dialog > div.modal-content > div.modal-footer > a.new_but"
+        "type": "xpath",
+        "value": "//*[@id='myModalvideo']/div/div/div[3]/a"
       }
     }
   ],
