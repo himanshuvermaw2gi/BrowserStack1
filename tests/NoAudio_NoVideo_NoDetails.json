@@ -1,0 +1,40 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www1.gltyr.com/view/vVkA0vzOUP2/xKYVn4Y5VtZ"
+    },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "I have done MCA, with total work experience of 6.1+ years in enterprise software development. I have worked on leading Microsoft Technologies like ASP.Net 1.1/2.0/3.5/4.0, WCF RestFull"
+    },
+    {
+      "type": "pause",
+      "waitTime": "8000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": ""
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Copyright Â© 2014 GLTYR. All rights reserved."
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
