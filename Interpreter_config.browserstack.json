@@ -13,7 +13,7 @@
           "browserOptions":  {
             "browserName": "IOS",
             "platform" : "IOS",
-            "device": "iPhone 5"
+            "device": "iPhone 5",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
