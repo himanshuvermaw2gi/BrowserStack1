@@ -11,9 +11,9 @@
             "path": "/wd/hub"
           },
           "browserOptions":  {
-            "browserName": "IOS",
-            "platform" : "IOS",
-            "device": "iPad 2",
+            "browserName": "ANDROID",
+            "platform" : "ANDROID",
+            "device": "Motorola Razr",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
