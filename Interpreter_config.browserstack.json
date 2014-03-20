@@ -13,7 +13,7 @@
           "browserOptions":  {
             "browserName": "ANDROID",
             "platform" : "ANDROID",
-            "device": "Samsung Galaxy Note II",
+            "device": " Samsung Galaxy Nexus",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
