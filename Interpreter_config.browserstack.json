@@ -11,8 +11,8 @@
             "path": "/wd/hub"
           },
           "browserOptions":  {
-            "browserName": "Opera",
-            "platform" : "ANY",
+            "browserName": "Safari",
+            "platform" : "WINDOWS",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
