@@ -13,7 +13,7 @@
           "browserOptions":  {
             "browserName": "ANDROID",
             "platform" : "ANDROID",
-            "device": "HTC One X",
+            "device": "Amazon Kindle Fire 2",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
