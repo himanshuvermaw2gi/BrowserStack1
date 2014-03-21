@@ -13,7 +13,7 @@
           "browserOptions":  {
             "browserName": "ANDROID",
             "platform" : "ANDROID",
-            "device": "LG Nexus 4",
+            "device": "Samsung Galaxy Tab 2 10.1",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
