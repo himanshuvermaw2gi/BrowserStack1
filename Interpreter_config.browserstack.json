@@ -11,10 +11,9 @@
             "path": "/wd/hub"
           },
           "browserOptions":  {
-            "browserName": "IOS",
-            "platform" : "IOS",
-            "device": "iPad 3rd (7.0)",
-            "acceptSslCerts": true,
+            "browserName": "IE 8.0",
+            "platform" : "Windows XP",
+           "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
             "browserstack.debug": true
