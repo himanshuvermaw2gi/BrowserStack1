@@ -13,7 +13,7 @@
           "browserOptions":  {
             "browserName": "ANDROID",
             "platform" : "ANDROID",
-            "device": "Motorola Droid Razr",
+            "device": "Motorola Droid 4",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
