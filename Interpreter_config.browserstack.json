@@ -12,7 +12,7 @@
           },
           "browserOptions":  {
             "browserName": "chrome",
-            "platform" : "Windows",
+            "platform" : "OS X Snow Leopard",
            "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
