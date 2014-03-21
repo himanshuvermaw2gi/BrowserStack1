@@ -11,9 +11,9 @@
             "path": "/wd/hub"
           },
           "browserOptions":  {
-            "browserName": "ANDROID",
-            "platform" : "ANDROID",
-            "device": "HTC Wildfire",
+            "browserName": "ios",
+            "platform" : "IOS",
+            "device": "iPad 3rd (7.0)",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
