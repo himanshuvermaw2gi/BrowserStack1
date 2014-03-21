@@ -11,8 +11,8 @@
             "path": "/wd/hub"
           },
           "browserOptions":  {
-            "browserName": "IE 8.0",
-            "platform" : "Windows XP",
+            "browserName": "IE",
+            "platform" : "XP",
            "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
