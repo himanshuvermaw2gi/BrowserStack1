@@ -11,8 +11,8 @@
             "path": "/wd/hub"
           },
           "browserOptions":  {
-            "browserName": "Opera",
-            "platform" : "Windows 7",
+            "browserName": "chrome",
+            "platform" : "Windows",
            "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
