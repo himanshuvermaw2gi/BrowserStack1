@@ -11,7 +11,7 @@
             "path": "/wd/hub"
           },
           "browserOptions":  {
-            "browserName": "ios",
+            "browserName": "IOS",
             "platform" : "IOS",
             "device": "iPad 3rd (7.0)",
             "acceptSslCerts": true,
