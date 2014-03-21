@@ -13,7 +13,7 @@
           "browserOptions":  {
             "browserName": "ANDROID",
             "platform" : "ANDROID",
-            "device": "Motorola Droid 4",
+            "device": "Motorola Atrix HD",
             "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
             "browserstack.key": "sUt3pLpo9zsCY9LPZvz6",
