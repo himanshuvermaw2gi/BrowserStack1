@@ -11,7 +11,7 @@
             "path": "/wd/hub"
           },
           "browserOptions":  {
-            "browserName": "OPERA",
+            "browserName": "chrome",
             "platform" : "WIN8",
            "acceptSslCerts": true,
             "browserstack.user": "himanshuverma",
